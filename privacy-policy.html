@@ -10,7 +10,7 @@
 
     <h1>Privacy Policy for ATL Tools</h1>
 
-    <p><strong>Last updated: October 10, 2026</strong></p>
+    <p><strong>Last updated: October 13, 2026</strong></p>
 
     <p>
         ATL Tools provides aviation calculation tools, including fuel uplift
@@ -26,15 +26,15 @@
     <p>
         ATL Tools stores appearance preferences, favorite tool selections,
         saved airport identifiers and cached weather reports in private app
-        storage on your device. No account or device-location permission is
-        required.
+        storage on your device. No ATL Tools account or GPS/device-location permission is
+        required. The app does not continuously track aircraft or device location.
     </p>
 
     <p>
         When you use METAR/TAF, selected airport ICAO identifiers are sent
         to NOAA Aviation Weather Center at aviationweather.gov over HTTPS.
         The provider may receive standard connection information, such as
-        your IP address and the app's User-Agent, as part of these requests.
+        the source IP address and the app's User-Agent, as part of these requests. The app does not add a unique user or device identifier to NOAA requests; the User-Agent identifies the app and platform. Providers may log requests.
         Calculator inputs, crew rosters and personal flight records are not
         sent to the weather provider.
     </p>
@@ -51,7 +51,7 @@
         Preferences, favorite tools, saved airports and cached weather
         reports are stored locally on your device. Removing an airport
         removes it from the saved list, but does not necessarily delete all
-        previously cached report files. You can remove the app's local data
+        previously cached report files. Clearing app storage also resets saved selections and preferences. You can remove the app's local data
         by clearing its storage in Android settings or uninstalling the app.
     </p>
 
@@ -65,15 +65,13 @@
     <h2>Accounts</h2>
 
     <p>
-        ATL Tools does not require users to create an account or provide
-        personal information.
+        ATL Tools does not require an account. Optional crew-rest names and calculator values are handled on device; Google Play services operate under their own terms and account settings.
     </p>
 
     <h2>Analytics and Advertising</h2>
 
     <p>
-        ATL Tools does not use advertising services, analytics services,
-        tracking technologies, or third-party analytics SDKs.
+        ATL Tools has no advertising or integrated app analytics or crash-reporting SDKs. This does not mean that external providers or platform services never process or log request metadata.
     </p>
 
     <h2>Internet Access</h2>
@@ -87,9 +85,15 @@
     </p>
 
     <p>
-        Google Play in-app update checks and downloads retain their existing
-        network behavior. Live NOTAM retrieval is not available in this
-        version and remains COMING SOON.
+        Google Play in-app update checks and accepted update downloads use the Play Store. Google documents processing of device metadata, the application version, and installed modules and asset packs to determine update availability and download size. Google states that this data is encrypted, not transferred to third parties, and deleted following a fixed retention period; its documentation does not specify that period. See <a href="https://developer.android.com/guide/playcore/in-app-updates#data-safety">Google Play In-App Updates data safety information</a> and <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.
+    </p>
+
+    <p>
+        AndroidX EmojiCompat automatically requests an emoji font shortly after app startup from a compatible system font provider, often Google Play services. The provider may download the font, and Google documents that font requests are logged. The app requests the font, not your calculator inputs or crew names. Provider-side metadata, retention and network endpoints depend on the installed provider. See <a href="https://developer.android.com/develop/ui/views/text-and-emoji/emoji2#impact-of-automatic-emojicompat-configuration">Android EmojiCompat documentation</a>.
+    </p>
+
+    <p>
+        Update checks and font-provider requests can occur without opening Weather. Core calculations and bundled guides still work offline. NOTAM and Weather Radar are unavailable and remain COMING SOON; neither has an active network service.
     </p>
 
     <h2>Data Sharing</h2>
@@ -99,16 +103,14 @@
         calculator inputs, crew roster data or personal flight records.
         Optional weather retrieval transmits selected airport ICAO
         identifiers and standard HTTPS connection information to NOAA
-        Aviation Weather Center as described above. The app has no
-        advertising or analytics SDKs.
+        Aviation Weather Center as described above. Platform-provider metadata processing is described above. NOAA and platform providers control their own processing and logs; ATL Tools does not promise a provider retention period or deletion of provider-side records. See the <a href="https://aviationweather.gov/data/api/">NOAA Aviation Weather Center API documentation</a> and <a href="https://www.weather.gov/privacy">National Weather Service privacy information</a>.
     </p>
 
     <h2>Children's Privacy</h2>
 
     <p>
-        ATL Tools does not ask users, including children, to create an
-        account or provide personal details. Local storage and optional
-        weather requests operate as described in this policy.
+        ATL Tools does not require users, including children, to create an
+        account or provide personal details to use its core calculators. Optional crew-rest names remain local. Local processing, optional Weather and platform-provider requests operate as described in this policy.
     </p>
 
     <h2>Changes to This Privacy Policy</h2>
